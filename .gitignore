@@ -5,6 +5,12 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 
+# Plugins & ProCore
+/Assets/ProCore/
+/Assets/Plugins/
+/Assets/Plugins.meta
+/Assets/ProCore.meta
+
 # Visual Studio 2015 cache directory
 /.vs/
 
