@@ -15,6 +15,7 @@ MonoBehaviour:
   - pbEnableBackfaceSelection
   - pbGenerateUV2PerObject
   - pbShowDetail
+  - pb_SmoothingGroupEditor::m_ShowPreview
   m_Int_keys:
   - pbHandleAlignment
   - pbDefaultEditLevel
@@ -27,7 +28,7 @@ MonoBehaviour:
   - pbCurrentMaterialPalette
   m_Color_keys: []
   m_Material_keys: []
-  m_Bool_values: 000001
+  m_Bool_values: 00000101
   m_Int_values: 00000000000000000000000000000000
   m_Float_values:
   - 0
