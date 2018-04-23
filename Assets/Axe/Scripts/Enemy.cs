@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour, IAxeHittable {
     // Use this for initialization
     void Start () {
         audio = GetComponent<AudioSource>();
+        audio.clip = clip;
+        audio.playOnAwake = false;
 	}
 	
 	// Update is called once per frame
@@ -28,6 +30,6 @@ public class Enemy : MonoBehaviour, IAxeHittable {
     }
 
     public void PlayHitSound() {
-        audio.PlayOneShot(clip);
+        audio.Play();
     }
 }

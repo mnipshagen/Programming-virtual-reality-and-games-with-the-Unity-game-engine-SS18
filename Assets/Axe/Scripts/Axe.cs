@@ -47,7 +47,7 @@ public class Axe : MonoBehaviour {
     private void FixedUpdate() {
         var input = GetInput();
         var moved = (input.x != 0 || input.y != 0);
-        Debug.Log(moved);
+
         this.anim.SetBool("Walk", moved);
 
         this.anim.SetBool("Run", player.movementSettings.Running);
@@ -58,8 +58,10 @@ public class Axe : MonoBehaviour {
     void OnTriggerEnter(Collider c) {
         GameObject other = c.gameObject;
         IAxeHittable target = other.GetComponent<IAxeHittable>();
+        Debug.Log("We hit something");
 
         if (target != null && !been_hit.Contains(other)) {
+            Debug.Log("AND IT WAS THE ENEMY");
             been_hit.Add(other);
             c.gameObject.SendMessage("OnGetHitByAxe", damage);
         }
