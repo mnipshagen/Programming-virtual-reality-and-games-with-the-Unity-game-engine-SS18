@@ -151,7 +151,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
                     m_AudioSource.clip = soundSettings.walk;
                 }
                 if (!m_AudioSource.isPlaying) {
-                    m_AudioSource.Play(10000);
+                    m_AudioSource.PlayDelayed(0.2f);
                 }
             }
             else {
