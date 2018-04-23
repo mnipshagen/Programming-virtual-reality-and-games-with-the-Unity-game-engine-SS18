@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour, IAxeHittable {
 
-    public AudioSource audio;
     public AudioClip clip;
     float health = 10f;
     
     // Use this for initialization
     void Start () {
-        audio = GetComponent<AudioSource>();
-        audio.clip = clip;
-        audio.playOnAwake = false;
 	}
 	
 	// Update is called once per frame
@@ -30,6 +26,6 @@ public class Enemy : MonoBehaviour, IAxeHittable {
     }
 
     public void PlayHitSound() {
-        audio.Play();
+        AudioSource.PlayClipAtPoint(clip, transform.position);
     }
 }

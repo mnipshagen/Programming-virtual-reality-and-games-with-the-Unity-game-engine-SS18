@@ -7,10 +7,10 @@ using UnityStandardAssets.CrossPlatformInput;
 public class Axe : MonoBehaviour {
 
 
-    float damage = 5f;
+    public float damage = 5f;
     Animator anim;
     CapsuleCollider cap_coll;
-    List<GameObject> been_hit = new List<GameObject>();
+    protected List<GameObject> been_hit = new List<GameObject>();
     bool in_attack = false;
     RigidbodyFirstPersonController player;
         
@@ -27,8 +27,6 @@ public class Axe : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        var pos = transform.position;
-        var current_position = new Vector2(pos.x, pos.y);
 		if (!in_attack && Input.GetKeyDown(KeyCode.Mouse0)) {
             in_attack = true;
             this.anim.SetTrigger("Attack");
@@ -36,7 +34,7 @@ public class Axe : MonoBehaviour {
 	}
 
     public void ActivateCollider(int active) {
-        cap_coll.enabled = !(active == 0);
+        cap_coll.enabled = (active != 0);
     }
 
     public void ReadyAttack() {
@@ -58,10 +56,8 @@ public class Axe : MonoBehaviour {
     void OnTriggerEnter(Collider c) {
         GameObject other = c.gameObject;
         IAxeHittable target = other.GetComponent<IAxeHittable>();
-        Debug.Log("We hit something");
 
         if (target != null && !been_hit.Contains(other)) {
-            Debug.Log("AND IT WAS THE ENEMY");
             been_hit.Add(other);
             c.gameObject.SendMessage("OnGetHitByAxe", damage);
         }

@@ -94,7 +94,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 3d5582b4ee67b6142b933c19769451a2, type: 3}
@@ -109,5 +109,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7adff1783d45054e85becc01706c8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip_on_hit: {fileID: 8300000, guid: 7edb5f1edfb491b46b8dcd9dbfcd2d75, type: 3}
-  health: 10
+  clip: {fileID: 8300000, guid: 7edb5f1edfb491b46b8dcd9dbfcd2d75, type: 3}
