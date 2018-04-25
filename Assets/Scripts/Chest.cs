@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour {
 
-    public UIController ui;
-    private Collider collider;
+    public UIController ui_controller;
+    SphereCollider coll;
 
 	// Use this for initialization
 	void Start () {
-        collider = GetComponent<Collider>();
+        coll = GetComponent<SphereCollider>();
 	}
 	
 	// Update is called once per frame
@@ -17,9 +17,11 @@ public class Chest : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Player approaches the chest");
-        ui.ShowWinMessage();
+        if (other.gameObject.CompareTag("Player")) {
+            Debug.Log("Player approaches the chest");
+            ui_controller.ShowWinMessage();
+        }
     }
 }
