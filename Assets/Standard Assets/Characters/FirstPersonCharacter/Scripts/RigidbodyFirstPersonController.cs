@@ -126,6 +126,12 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             }
         }
 
+		void OnTriggerEnter(Collider c)
+		{
+			if (c.gameObject.CompareTag ("Pick up")) {
+				c.gameObject.SetActive (false);
+			}
+		}
 
         private void FixedUpdate() {
             GroundCheck();
