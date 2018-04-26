@@ -5,6 +5,7 @@ using UnityEngine;
 public class Rotator : MonoBehaviour {
 
     public UIController ui_controller;
+    public float score = 1f;
 
 	
 	// Update is called once per frame
@@ -15,7 +16,7 @@ public class Rotator : MonoBehaviour {
     void OnTriggerEnter(Collider c) {
         if (c.gameObject.CompareTag("Player")) {
             this.gameObject.SetActive(false);
-            ui_controller.PutScore(1f);
+            ui_controller.PutScore(score);
         }
     }
 }

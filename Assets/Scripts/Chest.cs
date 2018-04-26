@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour {
 
+    public float score = 15f;
     public UIController ui_controller;
     SphereCollider coll;
 
@@ -21,8 +22,8 @@ public class Chest : MonoBehaviour {
     {
         if (other.gameObject.CompareTag("Player")) {
             Debug.Log("Player approaches the chest");
+            ui_controller.PutScore(score);
             ui_controller.ShowWinMessage();
-            ui_controller.PutScore(15f);
         }
     }
 }
