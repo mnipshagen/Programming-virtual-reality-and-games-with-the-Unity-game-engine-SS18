@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1001 &8011572
 Prefab:
   m_ObjectHideFlags: 0
@@ -976,6 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1001 &157153158
 Prefab:
   m_ObjectHideFlags: 0
@@ -1488,6 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &236448055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2778,6 +2781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!4 &430259606 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4162084960400892, guid: d91bbf09e9d796c42976f4b864e97969,
@@ -3087,6 +3091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!4 &484601628 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4162084960400892, guid: d91bbf09e9d796c42976f4b864e97969,
@@ -4400,6 +4405,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &666724293
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4456,6 +4482,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!114 &666724296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5557,6 +5584,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &851754476
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5609,6 +5657,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!4 &851754479
 Transform:
   m_ObjectHideFlags: 0
@@ -7636,6 +7685,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &1101512512
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7688,6 +7758,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!4 &1101512515
 Transform:
   m_ObjectHideFlags: 0
@@ -8863,6 +8934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &1241911255 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1364471818141696, guid: dfa1640b3cfc9974ca813c4f38053289,
@@ -8884,6 +8956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &1244083069
 GameObject:
   m_ObjectHideFlags: 0
@@ -9415,6 +9488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!43 &1304820476
 Mesh:
   m_ObjectHideFlags: 0
@@ -9915,6 +9989,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &1326726520
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9967,6 +10062,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!4 &1326726523
 Transform:
   m_ObjectHideFlags: 0
@@ -10001,6 +10097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &1348444902
 GameObject:
   m_ObjectHideFlags: 0
@@ -10279,6 +10376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1001 &1367575280
 Prefab:
   m_ObjectHideFlags: 0
@@ -10354,6 +10452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &1375499903
 GameObject:
   m_ObjectHideFlags: 0
@@ -10772,10 +10871,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aa04644357927c40bc227406f1cea47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 454933059}
+  on_screen_message: {fileID: 454933059}
+  on_screen_score: {fileID: 1867354052}
   canvas: {fileID: 1450915109}
   startMessageDuration: 4
   fadeColor: {r: 0, g: 0, b: 1, a: 0.007843138}
+  score: 0
 --- !u!4 &1431316256 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4555766152796318, guid: 31bc21eb37dbe1a4da5a04be2c6a725b,
@@ -11084,6 +11185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1001 &1468567115
 Prefab:
   m_ObjectHideFlags: 0
@@ -11653,6 +11755,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &1533515432
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11705,6 +11828,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!4 &1533515435
 Transform:
   m_ObjectHideFlags: 0
@@ -12215,6 +12339,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &1609719279
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12270,6 +12415,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!1 &1612333937
 GameObject:
   m_ObjectHideFlags: 0
@@ -13011,6 +13157,27 @@ MonoBehaviour:
   m_Script: {fileID: 185759285, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _quads: []
+  _sharedIndices: []
+  _vertices: []
+  _uv: []
+  _uv3: []
+  _uv4: []
+  _tangents: []
+  _sharedIndicesUV: []
+  _colors: []
+  userCollisions: 0
+  isSelectable: 1
+  unwrapParameters:
+    hardAngle: 88
+    packMargin: 4
+    angleError: 8
+    areaError: 15
+  asset_guid: 
+  dontDestroyMeshOnDelete: 0
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &1683932597
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13063,6 +13230,7 @@ MonoBehaviour:
   m_Script: {fileID: 16342205, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _entityType: 0
 --- !u!4 &1683932600
 Transform:
   m_ObjectHideFlags: 0
@@ -14368,6 +14536,80 @@ Transform:
   m_Father: {fileID: 1612333938}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1867354050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1867354051}
+  - component: {fileID: 1867354053}
+  - component: {fileID: 1867354052}
+  m_Layer: 5
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1867354051
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1867354050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1450915106}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -50}
+  m_SizeDelta: {x: 160, y: 45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1867354052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1867354050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.9474645, b: 0.72794116, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Score: '
+--- !u!222 &1867354053
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1867354050}
 --- !u!1 &1872646889
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,6 +14809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!4 &1879659079 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4555766152796318, guid: 31bc21eb37dbe1a4da5a04be2c6a725b,
@@ -14647,6 +14890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &1927573407
 GameObject:
   m_ObjectHideFlags: 0
@@ -15029,6 +15273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &1991475315
 GameObject:
   m_ObjectHideFlags: 0
@@ -15264,6 +15509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!4 &2008488668 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4285800621538000, guid: dfa1640b3cfc9974ca813c4f38053289,
@@ -15503,6 +15749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!1 &2055405409
 GameObject:
   m_ObjectHideFlags: 0
@@ -15838,6 +16085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 373b751957703874fa9d607485264c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui_controller: {fileID: 1427329231}
 --- !u!4 &2099639389 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4162084960400892, guid: d91bbf09e9d796c42976f4b864e97969,

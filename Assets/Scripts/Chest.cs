@@ -22,6 +22,7 @@ public class Chest : MonoBehaviour {
         if (other.gameObject.CompareTag("Player")) {
             Debug.Log("Player approaches the chest");
             ui_controller.ShowWinMessage();
+            ui_controller.PutScore(15f);
         }
     }
 }
