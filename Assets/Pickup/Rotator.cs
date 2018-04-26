@@ -1,10 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Rotator : MonoBehaviour {
 
     public UIController ui_controller;
+    public AudioClip clip;
     public float score = 1f;
 
 	
@@ -17,6 +16,7 @@ public class Rotator : MonoBehaviour {
         if (c.gameObject.CompareTag("Player")) {
             this.gameObject.SetActive(false);
             ui_controller.PutScore(score);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
         }
     }
 }

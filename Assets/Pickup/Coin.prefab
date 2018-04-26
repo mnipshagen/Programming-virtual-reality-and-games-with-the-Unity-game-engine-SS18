@@ -96,6 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ui_controller: {fileID: 0}
+  clip: {fileID: 8300000, guid: a52f493e70b9dc64ab5f129155801e9d, type: 3}
   score: 1
 --- !u!136 &136339190900151564
 CapsuleCollider:
